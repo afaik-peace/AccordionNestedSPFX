@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "accordion-from-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionFromList/AccordionFromListWebPart.js",
+          "manifest": "./src/webparts/accordionFromList/AccordionFromListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AccordionFromListWebPartStrings": "lib/webparts/accordionFromList/loc/{locale}.js"
+  }
+}

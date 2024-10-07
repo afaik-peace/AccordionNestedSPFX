@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "accordion-from-list-spfx-client-side-solution",
+    "id": "07c5d5a2-1b95-484d-8a0d-853bc79110f9",
+    "version": "1.3.4.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "accordion-from-list-spfx description"
+      },
+      "longDescription": {
+        "default": "accordion-from-list-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "accordion-from-list-spfx Feature",
+        "description": "The feature that activates elements of the accordion-from-list-spfx solution.",
+        "id": "379c07a1-59f7-4267-825f-b5cc4cb5d1dd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/accordion-from-list-spfx.sppkg"
+  }
+}

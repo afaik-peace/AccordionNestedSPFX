@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "accordion-from-list-spfx",
+    "libraryId": "07c5d5a2-1b95-484d-8a0d-853bc79110f9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "accordion-from-list-spfx",
+    "solutionShortDescription": "accordion-from-list-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
