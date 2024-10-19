@@ -74,4 +74,68 @@ _self
 _parent
 _top
 
+4. Create and upload css file. sample css below
+   .accordion {
+    /* Remove border */
+    border: none; 
+    border-radius: 8px; /* Soft rounded corners */
+    width: 100%; /* Adjust as needed */
+}
+
+.accordionItem {
+    /* Remove borders */
+    border: none;
+    position: relative; /* For positioning child items */
+    margin-bottom: 2px; /* Add bottom margin for whitespace between items */
+}
+
+.accordionHeader {
+    padding: 15px; /* Increased padding for better touch area */
+    cursor: pointer;
+    background-color: #0091cb; /* Deep metallic blue for headers */
+    color: #fff; /* White text for contrast */
+    font-size: 16px; /* Slightly larger font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.accordionHeader:hover {
+    background-color: #2c6174; /* Darker shade on hover */
+}
+
+.accordionHeader.folder {
+    font-weight: bold; /* Bold for folder items */
+    background-color:#3b7e99;
+    margin-bottom: 2px;
+}
+
+.accordionHeader.file {
+    font-style: italic; /* Italic for file items */
+}
+
+.accordionContent {
+    display: none; /* Default state */
+
+    /* Remove border */
+    border: none; 
+    padding: 0px; /* Optional padding for content */
+}
+
+.accordionItem > .accordionContent > .accordionItem {
+    margin-bottom: 2px; /* Remove margins to eliminate gaps */
+    padding-left: 20px; /* Indent sub-nodes */
+
+}
+
+.accordionHeader a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the header */
+    margin-left: auto; /* Align links to the right */
+}
+
+*/.accordionHeader a::before {
+    content: "•"; /* Bullet character */
+    position: absolute; /* Position it absolutely */
+    left: 10px; /* Align it to the left with spacing */
+    color: #ffcc00; /* Gold color for bullets */
+}
 
