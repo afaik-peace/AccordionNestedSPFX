@@ -19,7 +19,7 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+>SharePoint Online
 
 ## Solution
 
@@ -48,31 +48,30 @@ Short summary on functionality and used technologies.
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
+**Steps**:
+1. Create Document Library
+2. Add Link to Document content type
+3. Add the following columns:
+- **Icon** (choice column) choices =PDF
+Word
+Excel
+PowerPoint
+Video
+Audio
+Image
+Archive
+Code
+Text
 
-## Features
+- **FontAwesomeIconClass** (calculated column with formula
+  
+=IF(Icon="PDF","fas fa-file-pdf",IF(Icon="Word","fas fa-file-word",IF(Icon="Excel","fas fa-file-excel",IF(Icon="PowerPoint","fas fa-file-powerpoint",IF(Icon="Video","fas fa-file-video",IF(Icon="Audio","fas fa-file-audio",IF(Icon="Image","fas fa-file-image",IF(Icon="Archive","fas fa-file-archive",IF(Icon="Code","fas fa-file-code",IF(Icon="Text","fas fa-file-alt"))))))))))
 
-Description of the extension that expands upon high-level summary above.
+- **Sequence** with default value =ZZZ
+- **Target** (choice column) with choices
+  _blank (make this default value)
+_self
+_parent
+_top
 
-This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
-## References
-
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
-"# AccordionNestedSPFX" 
-"# AccordionNestedSPFX" 
-"# AccordionNestedSPFX" 
-"# AccordionNestedSPFX" 
-"# AccordionNestedSPFX" 
