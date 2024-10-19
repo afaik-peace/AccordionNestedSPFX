@@ -46,7 +46,12 @@ Short summary on functionality and used technologies.
 - Ensure that you are at the solution folder
 - in the command-line run:
   - **npm install**
-  - **gulp serve**
+  - **gulp serve** (to test in workbench)
+
+    **Deployment**
+  - gulp build
+  - gulp bundle --ship
+  - gulp package-solution --ship
 
 **Steps**:
 1. Create Document Library
