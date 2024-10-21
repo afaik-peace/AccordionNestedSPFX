@@ -1,4 +1,4 @@
-# accordion-from-list-spfx
+# accordion-from-library-spfx
 
 ## Summary
 
