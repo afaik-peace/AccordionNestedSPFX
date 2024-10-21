@@ -82,7 +82,8 @@ _self
 _parent
 _top
 
-4. Create and upload css file. sample css below
+4. Create and upload css file. sample css below:
+   
    .accordion {
     /* Remove border */
     border: none; 
