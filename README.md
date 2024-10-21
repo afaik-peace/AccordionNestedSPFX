@@ -37,8 +37,8 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.1     | October 19, 2024   | Update comment  |
+| 1.0     | October 19, 2024| Initial release |
 
 ## Disclaimer
 
