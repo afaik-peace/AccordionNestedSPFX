@@ -1,3 +1,5 @@
+![accordionSPFX](https://github.com/user-attachments/assets/3f111732-d17e-4709-9e3d-5068420c1b4b)
+
 # accordion-from-library-spfx
 
 ## Summary
