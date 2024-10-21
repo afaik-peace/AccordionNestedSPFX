@@ -5,6 +5,7 @@
 ## Summary
 
 ![accordionSPFX](https://github.com/user-attachments/assets/3f111732-d17e-4709-9e3d-5068420c1b4b)
+https://www.youtube.com/watch?v=iueG1jCY1Ec
 
 ## Used SharePoint Framework Version
 
