@@ -28,7 +28,7 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| AccordionNestedSPFX| Author details (Abdul Hadi Fakier, 110 Consulting, website: https://110consulting.co.za , Youtube:https://www.youtube.com/@TECHNOLOTREE ) |
 
 ## Version history
 
