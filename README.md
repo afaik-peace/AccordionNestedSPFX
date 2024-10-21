@@ -58,10 +58,11 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
   - Find the **.sppkg** file in /sharepoint/solution folder whcih you can add to your app catalogue and deploy.
 
 **Steps**:
-1. Create Document Library
-2. Add Link to Document content type
+1. Create a Document Library
+2. Add _Link to Document_ content type
 3. Add the following columns:
-- **Icon** (choice column) choices =PDF
+- **Icon** (choice column) choices are:
+PDF
 Word
 Excel
 PowerPoint
@@ -72,11 +73,11 @@ Archive
 Code
 Text
 
-- **FontAwesomeIconClass** (calculated column with formula
+- **FontAwesomeIconClass** (calculated column) with formula
   
 =IF(Icon="PDF","fas fa-file-pdf",IF(Icon="Word","fas fa-file-word",IF(Icon="Excel","fas fa-file-excel",IF(Icon="PowerPoint","fas fa-file-powerpoint",IF(Icon="Video","fas fa-file-video",IF(Icon="Audio","fas fa-file-audio",IF(Icon="Image","fas fa-file-image",IF(Icon="Archive","fas fa-file-archive",IF(Icon="Code","fas fa-file-code",IF(Icon="Text","fas fa-file-alt"))))))))))
 
-- **Sequence** with default value =ZZZ
+- **Sequence** (text column) with default value =ZZZ
 - **Target** (choice column) with choices
   _blank (make this default value)
 _self
