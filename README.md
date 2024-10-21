@@ -1,12 +1,10 @@
-![accordionSPFX](https://github.com/user-attachments/assets/3f111732-d17e-4709-9e3d-5068420c1b4b)
+
 
 # accordion-from-library-spfx
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+![accordionSPFX](https://github.com/user-attachments/assets/3f111732-d17e-4709-9e3d-5068420c1b4b)
 
 ## Used SharePoint Framework Version
 
