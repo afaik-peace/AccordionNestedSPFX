@@ -51,10 +51,11 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
   - **npm install**
   - **gulp serve** (to test in workbench)
 
-    **Deployment**
+    **For Deployment**
   - gulp build
   - gulp bundle --ship
   - gulp package-solution --ship
+  - Find the **.sppkg** file in /sharepoint/solution folder whcih you can add to your app catalogue and deploy.
 
 **Steps**:
 1. Create Document Library
