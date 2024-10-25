@@ -4,14 +4,14 @@
 
 ## Summary
 
-[![accordionSPFX](assets/accordion thumbnail.png)](https://github.com/afaik-peace/AccordionNestedSPFX/blob/main/assets/accordion%20thumbnail.png)
+![Alt text](https://github.com/afaik-peace/AccordionNestedSPFX/blob/main/assets/accordion%20thumbnail.png)
 
 Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 
 
 ## Used SharePoint Framework Version
 
-![version]([https://img.shields.io/badge/version-1.19.0-green.svg](https://github.com/afaik-peace/AccordionNestedSPFX/blob/main/accordion%20thumbnail.png))
+![version]([https://img.shields.io/badge/version-1.19.0-green.svg]))
 
 ## Applies to
 
