@@ -4,7 +4,7 @@
 
 ## Summary
 
-![accordionSPFX](https://github.com/user-attachments/assets/3f111732-d17e-4709-9e3d-5068420c1b4b)
+![accordionSPFX](assets/accordion thumbnail.png)
 
 Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 
