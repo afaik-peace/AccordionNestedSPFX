@@ -4,7 +4,7 @@
 
 ## Summary
 
-![accordionSPFX](assets/accordion thumbnail.png)
+[![accordionSPFX](assets/accordion thumbnail.png)](https://github.com/afaik-peace/AccordionNestedSPFX/blob/main/assets/accordion%20thumbnail.png)
 
 Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 
