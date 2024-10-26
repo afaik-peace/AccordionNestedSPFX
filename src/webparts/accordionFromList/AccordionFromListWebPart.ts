@@ -4,6 +4,9 @@ import { SPHttpClient } from '@microsoft/sp-http';
 import { IAccordionFromListWebPartProps } from './IAccordionFromListWebPartProps';
 import { IPropertyPaneConfiguration, PropertyPaneTextField } from '@microsoft/sp-property-pane';
 import '@fortawesome/fontawesome-free/css/all.css';
+import './defaultStyles.css';
+
+
 
 interface AccordionItem {
     name: string;
@@ -63,8 +66,6 @@ export default class AccordionFromListWebPart extends BaseClientSideWebPart<IAcc
                 this.itemsFetched = data.value;
                 this.renderAccordion();
 
-                // Alert logic to notify users this is for testing
-                this.showTestingPopup(); // <-- ADD THIS LINE
             })
             .catch(error => {
                 console.error('Fetch error:', error);
@@ -75,11 +76,7 @@ export default class AccordionFromListWebPart extends BaseClientSideWebPart<IAcc
             });
     }
 
-    private showTestingPopup(): void {
-        setInterval(() => {
-            alert("This web part is for testing purposes only. For the full version please email info@110consulting.co.za."); // <-- ALERT CODE
-        }, 5000); // 5 seconds in milliseconds
-    }
+
 
     private buildHierarchy(items: SharePointItem[]): AccordionItem[] {
         const hierarchy: AccordionItem[] = [];
