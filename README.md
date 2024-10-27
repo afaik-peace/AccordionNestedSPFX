@@ -49,16 +49,19 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 ## Minimal Path to Awesome
 
 - Clone this repository
-- Use any Node version 18 ( I use Node Version manager to switch easily, download https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+- Use any Node version 18 ( I use Node Version manager(NVM) to switch easily, download https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+  - If using NVM, in the command-line run:
+  - **nvm install 18**
+  - **nvm use 18**
 - Ensure that you are at the solution folder
 - in the command-line run:
   - **npm install**
   - **gulp serve** (to test in workbench)
 
     **For Deployment**
-  - gulp build
-  - gulp bundle --ship
-  - gulp package-solution --ship
+  - **gulp build**
+  - **gulp bundle --ship**
+  - **gulp package-solution --ship**
   - Find the **.sppkg** file in /sharepoint/solution folder whcih you can add to your app catalogue and deploy.
 
 **Steps**:
@@ -66,7 +69,7 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 2. Add _Link to Document_ content type
 3. Add the following columns:
 - **Icon** (choice column) choices are:
-PDF
+**PDF
 Word
 Excel
 PowerPoint
@@ -75,11 +78,11 @@ Audio
 Image
 Archive
 Code
-Text
+Text**
 
 - **FontAwesomeIconClass** (calculated column) with formula
   
-=IF(Icon="PDF","fas fa-file-pdf",IF(Icon="Word","fas fa-file-word",IF(Icon="Excel","fas fa-file-excel",IF(Icon="PowerPoint","fas fa-file-powerpoint",IF(Icon="Video","fas fa-file-video",IF(Icon="Audio","fas fa-file-audio",IF(Icon="Image","fas fa-file-image",IF(Icon="Archive","fas fa-file-archive",IF(Icon="Code","fas fa-file-code",IF(Icon="Text","fas fa-file-alt"))))))))))
+**=IF(Icon="PDF","fas fa-file-pdf",IF(Icon="Word","fas fa-file-word",IF(Icon="Excel","fas fa-file-excel",IF(Icon="PowerPoint","fas fa-file-powerpoint",IF(Icon="Video","fas fa-file-video",IF(Icon="Audio","fas fa-file-audio",IF(Icon="Image","fas fa-file-image",IF(Icon="Archive","fas fa-file-archive",IF(Icon="Code","fas fa-file-code",IF(Icon="Text","fas fa-file-alt"))))))))))**
 
 - **Sequence** (text column) with default value =ZZZ
 - **Target** (choice column) with choices
@@ -90,7 +93,7 @@ _top
 
 4. Create and upload css file. sample css below:
    
-   .accordion {
+.accobrdion {
     /* Remove border */
     border: none; 
     border-radius: 8px; /* Soft rounded corners */
@@ -107,19 +110,19 @@ _top
 .accordionHeader {
     padding: 15px; /* Increased padding for better touch area */
     cursor: pointer;
-    background-color: #0091cb; /* Deep metallic blue for headers */
-    color: #fff; /* White text for contrast */
+    background-color: #d9d9d9; /* Light grey for headers */
+    color: #333; /* Dark text for contrast */
     font-size: 16px; /* Slightly larger font size */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .accordionHeader:hover {
-    background-color: #2c6174; /* Darker shade on hover */
+    background-color: #bfbfbf; /* Darker grey on hover */
 }
 
 .accordionHeader.folder {
     font-weight: bold; /* Bold for folder items */
-    background-color:#3b7e99;
+    background-color: #c0c0c0; /* Medium grey for folder headers */
     margin-bottom: 2px;
 }
 
@@ -138,7 +141,6 @@ _top
 .accordionItem > .accordionContent > .accordionItem {
     margin-bottom: 2px; /* Remove margins to eliminate gaps */
     padding-left: 20px; /* Indent sub-nodes */
-
 }
 
 .accordionHeader a {
@@ -147,7 +149,7 @@ _top
     margin-left: auto; /* Align links to the right */
 }
 
-*/.accordionHeader a::before {
+.accordionHeader a::before {
     content: "•"; /* Bullet character */
     position: absolute; /* Position it absolutely */
     left: 10px; /* Align it to the left with spacing */
