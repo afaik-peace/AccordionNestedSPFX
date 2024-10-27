@@ -53,7 +53,7 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
   - If using NVM, in the command-line run:
   - **nvm install 18**
   - **nvm use 18**
-- Ensure that you are at the solution folder
+- Ensure that you are at the solution folder. You might have to click on the extracted root folder to get to the solution folder that contains all the solution files.
 - in the command-line run:
   - **npm install**
   - **gulp serve** (to test in workbench)
