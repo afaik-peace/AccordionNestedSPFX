@@ -132,9 +132,7 @@ _top
 
 .accordionContent {
     display: none; /* Default state */
-
-    
-    border: none; 
+    border: none; /* border */
     padding: 0px; /* Optional padding for content */
 }
 
