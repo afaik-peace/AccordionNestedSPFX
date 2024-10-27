@@ -58,7 +58,7 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
   - **npm install**
   - **gulp serve** (to test in workbench)
 
-    **For Deployment**
+    **For Deployment run the following:**
   - **gulp build**
   - **gulp bundle --ship**
   - **gulp package-solution --ship**
