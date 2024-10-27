@@ -153,6 +153,6 @@ _top
     content: "•"; /* Bullet character */
     position: absolute; /* Position it absolutely */
     left: 10px; /* Align it to the left with spacing */
-    color: #ffcc00; /* Gold color for bullets */
-}
+    color: #000000; /* Black color for bullets */
+
 
