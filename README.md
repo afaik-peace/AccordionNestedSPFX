@@ -49,6 +49,7 @@ Watch on Youtube: https://www.youtube.com/watch?v=iueG1jCY1Ec
 ## Minimal Path to Awesome
 
 - Clone this repository
+- Use any Node version 18 ( I use Node Version manager to switch easily, download https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 - Ensure that you are at the solution folder
 - in the command-line run:
   - **npm install**
